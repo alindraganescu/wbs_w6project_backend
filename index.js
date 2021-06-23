@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+app.use(express.json());
 const fs = require('fs');
 const cors = require('cors');
 
@@ -12,6 +13,32 @@ app.get('/', (req, res) => {
       res.status(500).send('Failed to load the data.');
     } else {
       res.send(data);
+    }
+  });
+});
+
+app.get('/wiki', (req, res) => {
+  fs.readFile('./data_wiki.json', 'utf-8', (err, data) => {
+    if (err) {
+      res.status(500).send('Failed to load the data.');
+    } else {
+      res.send(data);
+    }
+  });
+});
+
+app.get('/wiki/:id', (req, res) => {
+  const { id } = req.params;
+  fs.readFile('./data_wiki.json', 'utf-8', (err, data) => {
+    if (err) {
+      res.status(500).send('Failed to load the data.');
+    } else {
+      console.log(data.items);
+      const wikiEntry = JSON.parse(data).items.find(
+        (item) => item.fields.id === id
+      );
+      console.log(wikiEntry);
+      res.send(wikiEntry);
     }
   });
 });

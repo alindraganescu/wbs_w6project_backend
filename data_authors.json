@@ -1,29 +1,12 @@
 {
   "items": [
     {
-      "metadata": {
-        "tags": []
-      },
+      "id": "6TIiRnPH0VQu0A5hahD0la",
       "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "3cstkrd87r8x"
-          }
-        },
         "id": "6TIiRnPH0VQu0A5hahD0la",
         "type": "Entry",
         "createdAt": "2021-06-06T09:48:39.153Z",
         "updatedAt": "2021-06-09T05:59:51.924Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -36,45 +19,16 @@
       "fields": {
         "name": "Eddy",
         "profilePicture": {
-          "metadata": {
-            "tags": []
-          },
           "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "3cstkrd87r8x"
-              }
-            },
             "id": "7lDcoa6qxKF6JBFnzxdYIk",
-            "type": "Asset",
-            "createdAt": "2021-06-06T09:47:56.369Z",
-            "updatedAt": "2021-06-06T09:47:56.369Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
+            "type": "Asset"
           },
           "fields": {
             "title": "Eddy",
             "description": "This is Eddy",
             "file": {
               "url": "//images.ctfassets.net/3cstkrd87r8x/7lDcoa6qxKF6JBFnzxdYIk/574c4a336d670683406d7869748f2754/Eddy.jpg",
-              "details": {
-                "size": 65426,
-                "image": {
-                  "width": 640,
-                  "height": 438
-                }
-              },
-              "fileName": "Eddy",
-              "contentType": "image/jpeg"
+              "fileName": "Eddy"
             }
           }
         },
@@ -82,36 +36,10 @@
       }
     },
     {
-      "metadata": {
-        "tags": []
-      },
+      "id": "r4DBeB7A59Ao78ojgeANH",
       "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "3cstkrd87r8x"
-          }
-        },
         "id": "r4DBeB7A59Ao78ojgeANH",
         "type": "Entry",
-        "createdAt": "2021-06-06T09:45:58.953Z",
-        "updatedAt": "2021-06-09T05:57:49.059Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "revision": 2,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "author"
-          }
-        },
         "locale": "en-US"
       },
       "fields": {
@@ -121,40 +49,14 @@
             "tags": []
           },
           "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "3cstkrd87r8x"
-              }
-            },
             "id": "dBlUa4Vp8m4tHcrq082BH",
-            "type": "Asset",
-            "createdAt": "2021-06-06T09:44:47.785Z",
-            "updatedAt": "2021-06-06T09:44:47.785Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "revision": 1,
-            "locale": "en-US"
+            "type": "Asset"
           },
           "fields": {
             "title": "Me with almons",
             "file": {
               "url": "//images.ctfassets.net/3cstkrd87r8x/dBlUa4Vp8m4tHcrq082BH/29a68a1aef63ba8c05ca1fbf93c8c2f6/16252324_10154950080628794_1977446145080701448_o.jpg",
-              "details": {
-                "size": 92801,
-                "image": {
-                  "width": 1224,
-                  "height": 918
-                }
-              },
-              "fileName": "16252324_10154950080628794_1977446145080701448_o.jpg",
-              "contentType": "image/jpeg"
+              "fileName": "16252324_10154950080628794_1977446145080701448_o.jpg"
             }
           }
         },
